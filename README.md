@@ -31,22 +31,10 @@ g3r_stab.exe < g3r_input.txt > outpitfilename
      NOTE: if you set: clight=0 => no relativistic terms
     
 ### SECOND LINE:    
-  a , e , i, M_0, \Omega, \omega for the inner orbit
+     a , e , i, M_0, \Omega, \omega for the inner orbit
 
 ### THIRD LINE:
-  Q,  e , i, M_0, \Omega , \omega for the outer orbit
+     Q,  e , i, M_0, \Omega , \omega for the outer orbit
 
-
-  The code prints  some errors & other info on standard output
-  and to the file 'taei' orbital elements:
-  write(91,191)ytime,a12,e12,inc12,a3,e3,inc3,ainc,oo12 ! write some elemets
-  ytime=years
-  a12 =inner a
-  e12 =inner e
-  inc12 =inner i
-  a3,e3,inc3 in the same way
-  HOWEVER: the inclinations are in the innertial system => mean 'nothing'
-  (since affected by precessions)
-  instead  look 'ainc' = mutual inclination of orbits
-  oo12= inner \omega  (to make possible to check the relativistic precession)
-                      (for Mercury the code gave 43" /100 years, i.e. correct)
+(To make possible to check the relativistic precession
+for Mercury the code gave 43"/100 years, i.e. correct)
