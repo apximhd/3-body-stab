@@ -30,10 +30,13 @@ g3r_stab.exe < g3r_input.txt > outpitfilename
      clight= speed of light. If M_sun=1 , G=1 ,a_Earth=1, then approx c=10^4
      NOTE: if you set: clight=0 => no relativistic terms
     
-### SECOND LINE:    
+### SECOND LINE:
+     m1, m2, m3 -- masses of component
+     
+### THIRD LINE:    
      a , e , i, M_0, \Omega, \omega for the inner orbit
 
-### THIRD LINE:
+### FOURTH LINE:
      Q,  e , i, M_0, \Omega , \omega for the outer orbit
 
 (To make possible to check the relativistic precession
