@@ -16,7 +16,7 @@ gfortran -o g3r_stab.exe g3r_stab.f95 -Ofast
 g3r_stab.exe < g3r_input.txt
 
 ### For output to file use:
-g3r_stab.exe < g3r_input.txt > outpitfilename
+g3r_stab.exe < g3r_input.txt > outputfilename
 
 ## Content of the g3r_input.txt file
 ### FIRST LINE:
